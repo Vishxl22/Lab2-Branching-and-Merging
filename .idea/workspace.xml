@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3969bc-b1d1-4688-99bf-55c39af6d87b" name="Changes" comment="Testing">
-      <change beforePath="$PROJECT_DIR$/Lab2-Branching-and-Merging.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2-Branching-and-Merging.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PolymorphismTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PolymorphismTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="bd3969bc-b1d1-4688-99bf-55c39af6d87b" name="Changes" comment="Testing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="task_1" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="task_1" />
       </map>
     </option>
   </component>
@@ -106,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1778800168059</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Testing">
+      <created>1778802116107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778802116107</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Testing">
+      <created>1778802198893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778802198893</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
