@@ -1,0 +1,54 @@
+Index: test/PolymorphismTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import org.junit.Test;\r\nimport static org.junit.Assert.*;\r\n\r\npublic class PolymorphismTest {\r\n\r\n    @Test\r\n    public void testGetStudentRole() {\r\n        Person person = new Person(\"Somebody\");\r\n        assertEquals(\"General\", Polymorphism.getStudentRole(person));\r\n\r\n        Student student = new Student(\"Someone\", \"207207207\");;\r\n        assertEquals(\"Student\", Polymorphism.getStudentRole(student));\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test/PolymorphismTest.java b/test/PolymorphismTest.java
+--- a/test/PolymorphismTest.java	(revision 106fe7b52eb6a8f0501ed956cb07a8455eda75f4)
++++ b/test/PolymorphismTest.java	(date 1778800961254)
+@@ -8,7 +8,7 @@
+         Person person = new Person("Somebody");
+         assertEquals("General", Polymorphism.getStudentRole(person));
+ 
+-        Student student = new Student("Someone", "207207207");;
++        Student student = new Student("Someone", "207207207");
+         assertEquals("Student", Polymorphism.getStudentRole(student));
+ 
+     }
+Index: Lab2-Branching-and-Merging.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/test\" isTestSource=\"true\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"module-library\" scope=\"TEST\">\r\n      <library name=\"testng\">\r\n        <CLASSES>\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/testng/testng/7.1.0/testng-7.1.0.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.72/jcommander-1.72.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar!/\" />\r\n        </CLASSES>\r\n        <JAVADOC />\r\n        <SOURCES />\r\n      </library>\r\n    </orderEntry>\r\n    <orderEntry type=\"module-library\" scope=\"TEST\">\r\n      <library name=\"JUnit4\">\r\n        <CLASSES>\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/junit/junit/4.13.1/junit-4.13.1.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/\" />\r\n        </CLASSES>\r\n        <JAVADOC />\r\n        <SOURCES />\r\n      </library>\r\n    </orderEntry>\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lab2-Branching-and-Merging.iml b/Lab2-Branching-and-Merging.iml
+--- a/Lab2-Branching-and-Merging.iml	(revision 106fe7b52eb6a8f0501ed956cb07a8455eda75f4)
++++ b/Lab2-Branching-and-Merging.iml	(date 1778801025725)
+@@ -34,5 +34,23 @@
+         <SOURCES />
+       </library>
+     </orderEntry>
++    <orderEntry type="library" name="junit.jupiter" level="project" />
++    <orderEntry type="module-library" scope="TEST">
++      <library name="JUnit5.8.1">
++        <CLASSES>
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="library" name="junit" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
