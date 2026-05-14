@@ -9,7 +9,7 @@ walkthrough of the steps we will be going through in the lab. We encourage you t
 it as a reference as needed. The short video (about 4 minutes) is well worth a quick view
 in the link above.
 
-The first coding pammmmmmrt in this activity is (very loosely) based on a common problem encountered in
+The first coding part in this activity is (very loosely) based on a common problem encountered in
 problems posted on https://projecteuler.net/archives which is another interesting source of challenging
 programming problems. You might also recognize that the multiples of 3 and 5 problem from
 last week came from there. If you are looking for challenges, definitely check it out.
